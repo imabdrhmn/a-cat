@@ -59,13 +59,13 @@ h1{
 
 .shadow{
     box-shadow: 10px 10px 25px greenyellow;
-    width: 40%
+    width: 40%;
     margin-left: 100px;
     margin-right: 5%;
     padding: 4%;
-    border-radius:5px;
-    
-
+    border-radius: 5px;
+    border-image: linear-gradient (blue, cyan);
+    border: image slice 1px;;
 }
 
 #last-div-one{
