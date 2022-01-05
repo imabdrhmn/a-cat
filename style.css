@@ -13,7 +13,7 @@ h1{
     font-weight: 900;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -55,4 +55,34 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow{
+    box-shadow: 10px 10px 25px greenyellow;
+    width: 40%
+    margin-left: 100px;
+    margin-right: 5%;
+    padding: 4%;
+    border-radius:5px;
+    
+
+}
+
+#last-div-one{
+    margin-left: 5%;
+    padding: 4%;
+    border-left: greenyellow;
+}
+
+
+
+#last-div-two{
+    border-image: linear-gradient(blue, cyan);
+
+}
+
+.ex-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
